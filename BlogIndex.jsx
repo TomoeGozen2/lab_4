@@ -1,4 +1,4 @@
-import { Posts } from "posts";
+import { Posts } from "./posts";
 
 export default function BlogIndex(){
       const blogPosts = Posts.map(blogPost => <li>{blogPost.id} {blogPost.title}

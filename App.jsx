@@ -1,5 +1,5 @@
-import { Posts } from "../lib/posts";
-import BlogIndex from "../pages/BlogIndex";
+import { Posts } from "./posts";
+import BlogIndex from "./BlogIndex";
 import Login from "./login";
 
 export default function App(){
